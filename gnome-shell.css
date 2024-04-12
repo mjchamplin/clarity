@@ -1,5 +1,7 @@
+/* Use the Default Yaru theme as a starting point */
 @import url("resource:///org/gnome/theme/gnome-shell.css");
 
+/* #Panel refers to the top bar */
 #panel {
   background-color: rgba(0, 0, 0, .4);
   font-family: "Lato", sans-serif;
