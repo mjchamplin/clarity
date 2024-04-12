@@ -1,0 +1,37 @@
+@import url("resource:///org/gnome/theme/gnome-shell.css");
+
+#panel {
+  background-color: rgba(0, 0, 0, .4);
+  font-family: "Lato", sans-serif;
+  height: 2.2em;
+}
+
+#panel StLabel {
+  font-weight: 800;
+  font-size: 12pt;
+}
+
+#panel .panel-button {
+  font-weight: bold;
+  color: #f2f2f2;
+  -natural-hpadding: 12px;
+  -minimum-hpadding: 6px;
+  transition-duration: 150ms;
+  border: 3px solid transparent;
+  border-radius: 50%; 
+}
+
+
+#panel .panel-button.clock-display .clock {
+  transition-duration: 150ms;
+  border: 3px solid transparent;
+  border-radius: 50%; 
+}
+
+#panel .panel-button:hover {
+  box-shadow: inset 0 0 0 100pt rgba(255, 255, 255, 0.2); 
+}
+
+#panel .panel-button:hover.clock-display {
+  box-shadow: none; 
+}
